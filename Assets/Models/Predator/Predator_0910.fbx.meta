@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 2b3b08f8207d2e34fa1d694427381567
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: objpCylinder3
+    100002: objpCylinder4
+    100004: objpCylinder5
+    100006: objpCylinder8
+    100008: objpolySurface11
+    100010: objpolySurface111
+    100012: objpolySurface112
+    100014: objpolySurface113
+    100016: objpolySurface114
+    100018: objpolySurface115
+    100020: objpolySurface116
+    100022: objpolySurface26
+    100024: objpolySurface33
+    100026: objpolySurface67
+    100028: //RootNode
+    400000: objpCylinder3
+    400002: objpCylinder4
+    400004: objpCylinder5
+    400006: objpCylinder8
+    400008: objpolySurface11
+    400010: objpolySurface111
+    400012: objpolySurface112
+    400014: objpolySurface113
+    400016: objpolySurface114
+    400018: objpolySurface115
+    400020: objpolySurface116
+    400022: objpolySurface26
+    400024: objpolySurface33
+    400026: objpolySurface67
+    400028: //RootNode
+    2100000: body
+    2100002: camera lens
+    2100004: undercarriage
+    2100006: wheel
+    2300000: objpCylinder3
+    2300002: objpCylinder4
+    2300004: objpCylinder5
+    2300006: objpCylinder8
+    2300008: objpolySurface11
+    2300010: objpolySurface111
+    2300012: objpolySurface112
+    2300014: objpolySurface113
+    2300016: objpolySurface114
+    2300018: objpolySurface115
+    2300020: objpolySurface116
+    2300022: objpolySurface26
+    2300024: objpolySurface33
+    2300026: objpolySurface67
+    3300000: objpCylinder3
+    3300002: objpCylinder4
+    3300004: objpCylinder5
+    3300006: objpCylinder8
+    3300008: objpolySurface11
+    3300010: objpolySurface111
+    3300012: objpolySurface112
+    3300014: objpolySurface113
+    3300016: objpolySurface114
+    3300018: objpolySurface115
+    3300020: objpolySurface116
+    3300022: objpolySurface26
+    3300024: objpolySurface33
+    3300026: objpolySurface67
+    4300000: objpCylinder3
+    4300002: objpCylinder4
+    4300004: objpolySurface11
+    4300006: objpolySurface26
+    4300008: objpCylinder5
+    4300010: objpolySurface33
+    4300012: objpolySurface67
+    4300014: objpCylinder8
+    4300016: objpolySurface111
+    4300018: objpolySurface112
+    4300020: objpolySurface114
+    4300022: objpolySurface115
+    4300024: objpolySurface116
+    4300026: objpolySurface113
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: 0c1cb06f66353b548bcfd7285536ad62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: camera lens
+    second: {fileID: 2100000, guid: 8656a7fb5e11d6945b966afc7fb60c09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: undercarriage
+    second: {fileID: 2100000, guid: 27cf3e0e04a59cb44a9d5d9a16aac1a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheel
+    second: {fileID: 2100000, guid: 466d44f127fe421408a71738134a4a66, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
