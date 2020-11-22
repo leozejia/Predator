@@ -13,29 +13,29 @@ public class Result
 
 public class Sar
 {
-    public float rfbm { get; set; }
-    public float londeg { get; set; }
-    public float latdeg { get; set; }
-    public float altm { get; set; }
-    public float psdBW { get; set; }
-    public float pjdBW { get; set; }
-    public float kjdB { get; set; }
-    public float jsrdB { get; set; }
+    public float rfb { get; set; }
+    public float lon { get; set; }
+    public float lat { get; set; }
+    public float alt { get; set; }
+    public float ps { get; set; }
+    public float pj { get; set; }
+    public float kj { get; set; }
+    public float jsr { get; set; }
     public float yn { get; set; }
 }
 
 public class Jammer
 {
-    public float rstm { get; set; }
-    public float rsjm { get; set; }
-    public float thetadeg { get; set; }
-    public float phideg { get; set; }
-    public float GrdB { get; set; }
-    public float varphideg { get; set; }
-    public float GjdB { get; set; }
-    public float semibeamtdeg { get; set; }
-    public float semibeampdeg { get; set; }
-    public int inbeam { get; set; }
+    public float rst { get; set; }
+    public float rsj { get; set; }
+    public float theta { get; set; }
+    public float phi { get; set; }
+    public float Gr { get; set; }
+    public float varphi { get; set; }
+    public float Gj { get; set; }
+    public float semibeamt { get; set; }
+    public float semibeamp { get; set; }
+    public int inbea { get; set; }
     public float prW { get; set; }
 }
 

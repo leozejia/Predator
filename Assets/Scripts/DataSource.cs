@@ -93,23 +93,23 @@ public class DataSource : MonoBehaviour
 
     private void RefreshDynamicData()
     {
-        UAVSar.lon.text = root.result[curIndex].sar.londeg.ToString();
-        UAVSar.lat.text = root.result[curIndex].sar.latdeg.ToString();
-        UAVSar.alt.text = root.result[curIndex].sar.altm.ToString();
-        UAVSar.ps.text = root.result[curIndex].sar.psdBW.ToString();
-        UAVSar.pj.text = root.result[curIndex].sar.pjdBW.ToString();
-        UAVSar.kj.text = root.result[curIndex].sar.kjdB.ToString();
-        UAVSar.jsr.text = root.result[curIndex].sar.jsrdB.ToString();
-        UAVSar.yn.text = root.result[curIndex].sar.jsrdB.ToString("0")=="0"?"失败":"成功";
+        UAVSar.lon.text = root.result[curIndex].sar.lon.ToString();
+        UAVSar.lat.text = root.result[curIndex].sar.lat.ToString();
+        UAVSar.alt.text = root.result[curIndex].sar.alt.ToString();
+        UAVSar.ps.text = root.result[curIndex].sar.ps.ToString();
+        UAVSar.pj.text = root.result[curIndex].sar.pj.ToString();
+        UAVSar.kj.text = root.result[curIndex].sar.kj.ToString();
+        UAVSar.jsr.text = root.result[curIndex].sar.jsr.ToString();
+        UAVSar.yn.text = root.result[curIndex].sar.jsr.ToString("0")=="0"?"失败":"成功";
 
-        sateliteSar.lon.text = root.result[curIndex].sar.londeg.ToString();
-        sateliteSar.lat.text = root.result[curIndex].sar.latdeg.ToString();
-        sateliteSar.alt.text = root.result[curIndex].sar.altm.ToString();
-        sateliteSar.ps.text = root.result[curIndex].sar.psdBW.ToString();
-        sateliteSar.pj.text = root.result[curIndex].sar.pjdBW.ToString();
-        sateliteSar.kj.text = root.result[curIndex].sar.kjdB.ToString();
-        sateliteSar.jsr.text = root.result[curIndex].sar.jsrdB.ToString();
-        sateliteSar.yn.text = root.result[curIndex].sar.jsrdB.ToString("0") == "0" ? "失败" : "成功";
+        sateliteSar.lon.text = root.result[curIndex].sar.lon.ToString();
+        sateliteSar.lat.text = root.result[curIndex].sar.lat.ToString();
+        sateliteSar.alt.text = root.result[curIndex].sar.alt.ToString();
+        sateliteSar.ps.text = root.result[curIndex].sar.ps.ToString();
+        sateliteSar.pj.text = root.result[curIndex].sar.pj.ToString();
+        sateliteSar.kj.text = root.result[curIndex].sar.kj.ToString();
+        sateliteSar.jsr.text = root.result[curIndex].sar.jsr.ToString();
+        sateliteSar.yn.text = root.result[curIndex].sar.jsr.ToString("0") == "0" ? "失败" : "成功";
     }
 
     private string ReadJsonData(string fileName)
