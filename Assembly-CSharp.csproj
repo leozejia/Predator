@@ -345,11 +345,11 @@
     <Reference Include="UnityEditor">
       <HintPath>/Applications/Unity2019.4.2f1/Unity2019.4.2.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="DOTween">
-      <HintPath>/Users/mist/Github/Predator/Assets/SWS/Extensions/DOTween/DOTween.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json.Net20">
       <HintPath>/Users/mist/Github/Predator/Assets/Plugins/Newtonsoft.Json.Net20.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>/Users/mist/Github/Predator/Assets/SWS/Extensions/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity2019.4.2f1/Unity2019.4.2.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
